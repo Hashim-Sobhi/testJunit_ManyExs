@@ -58,7 +58,7 @@ public class MyStackTests {
         assertEquals(5, myStack.getPeek());
         myStack.pop();
         assertEquals(1, myStack.getPeek());
-
-
+        myStack.pop();
+        assertEquals(2, myStack.getPeek());
     }
 }
